@@ -521,9 +521,11 @@ footer{
         display: block;
         padding: 7px 5px;
        border-bottom: 1px solid #737373;
-        
-        
+    }
     
+    .continer header nav ul li:hover{
+        background: gray;
+        color : white;
     }
     
     .continer header nav ul li a{
@@ -536,9 +538,13 @@ footer{
         font-size: 13px;
         
     }
-    .continer header nav ul li:hover{
-        background:"gray";
+    
+    .continer header nav ul li a:hover{
+       background: unset;
+       color : white;
+        
     }
+    
     .home{
         margin-top: 5px;
     }
