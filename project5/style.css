@@ -536,6 +536,9 @@ footer{
         font-size: 13px;
         
     }
+    .continer header nav ul li:hover{
+        background:"gray";
+    }
     .home{
         margin-top: 5px;
     }
